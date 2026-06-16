@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>顧問先の職場課題を見立てる1Day体験講座｜社労士限定 2026年7月31日(金) お茶の水+オンライン</title>
-<meta name="description" content="顧問先の離職・メンタル不調・職場不和を、「存在感」と「人間関係の不安感」から読み解く社労士限定の1Day体験講座。2026年7月31日(金)10:00〜16:30、お茶の水+Zoomハイブリッド開催。早割27,500円(税込)は7月15日(水)まで。">
+<meta name="description" content="顧問先の離職・メンタル不調・職場不和を、「存在感」と「不安感」から読み解く社労士限定の1Day体験講座。2026年7月31日(金)10:00〜16:30、お茶の水+Zoomハイブリッド開催。早割27,500円(税込)は7月15日(水)まで。">
 
 <!-- ===== ファビコン ===== -->
 <link rel="icon" type="image/png" href="favicon-1day.png">
@@ -42,7 +42,7 @@
     color: var(--text);
     background: var(--bg);
     line-height: 1.8;
-    font-size: 16px;
+    font-size: 17px;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 80px; /* 追従バーの高さぶん */
   }
@@ -155,36 +155,6 @@
     position: relative;
     z-index: 1;
     max-width: 760px;
-  }
-
-  /* ===== Step Indicator ===== */
-  .hero-step {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 36px;
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.55);
-  }
-  .hero-step .step {
-    padding: 6px 14px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 2px;
-    font-weight: 500;
-    white-space: nowrap;
-  }
-  .hero-step .step.current {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--white);
-    font-weight: 700;
-  }
-  .hero-step .arrow {
-    color: rgba(255, 255, 255, 0.35);
-    font-size: 14px;
   }
 
   .hero-eyebrow {
@@ -314,7 +284,7 @@
     margin-bottom: 8px;
   }
   .hero-note {
-    font-size: 12.5px;
+    font-size: 11.5px;
     color: rgba(255, 255, 255, 0.7);
     margin-top: 14px;
     line-height: 1.85;
@@ -366,7 +336,7 @@
   .bridge-text {
     max-width: 680px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 2.1;
   }
   .bridge-text p {
@@ -401,12 +371,12 @@
   }
   .exp-grid { counter-reset: expc; }
   .exp-card h3 {
-    font-size: 17px;
+    font-size: 18px;
     color: var(--navy);
     margin-bottom: 10px;
   }
   .exp-card p {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-soft);
     line-height: 1.9;
   }
@@ -438,14 +408,14 @@
   }
   .takeaway-item .name {
     font-family: 'Noto Serif JP', serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--navy);
     margin-bottom: 8px;
     line-height: 1.6;
   }
   .takeaway-item .desc {
-    font-size: 13.5px;
+    font-size: 14.5px;
     color: var(--text-soft);
     line-height: 1.85;
   }
@@ -469,7 +439,7 @@
     width: 100%;
     border-collapse: collapse;
     background: var(--white);
-    font-size: 14.5px;
+    font-size: 15.5px;
   }
   .compare-table th, .compare-table td {
     padding: 16px 18px;
@@ -506,7 +476,7 @@
   .funnel-text {
     max-width: 720px;
     margin: 0 auto 40px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 2.1;
   }
   .funnel-text p {
@@ -546,7 +516,7 @@
     letter-spacing: 0.06em;
   }
   .deep-card .body {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-soft);
     line-height: 1.95;
     text-align: left;
@@ -554,7 +524,7 @@
   .deep-note {
     max-width: 720px;
     margin: 24px auto 0;
-    font-size: 12.5px;
+    font-size: 13.5px;
     color: var(--text-soft);
     line-height: 1.85;
   }
@@ -589,8 +559,15 @@
     font-style: normal;
     color: var(--cta);
   }
+  .cta-charge {
+    display: inline-block;
+    font-size: 0.78em;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-top: 4px;
+  }
   .cta-band-sub {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-soft);
     margin-bottom: 24px;
   }
@@ -608,7 +585,7 @@
     padding: 14px 16px;
     border-bottom: 1px solid var(--line);
     text-align: left;
-    font-size: 14.5px;
+    font-size: 15.5px;
     vertical-align: top;
     line-height: 1.7;
   }
@@ -643,75 +620,71 @@
   .speaker {
     background: var(--bg-soft);
   }
-  .speaker-card {
-    max-width: 720px;
+  .speaker-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 920px;
     margin: 0 auto;
+    align-items: start;
+  }
+  .speaker-card {
     background: var(--white);
-    padding: 56px 48px;
+    padding: 32px 32px 40px;
+  }
+  .speaker-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    background: var(--bg-soft);
+  }
+  .speaker-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .speaker-header {
     text-align: center;
-    padding-bottom: 32px;
+    padding-bottom: 22px;
     border-bottom: 1px solid var(--line);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   .speaker-name {
     font-family: 'Noto Serif JP', serif;
-    font-size: 28px;
+    font-size: 24px;
     color: var(--navy);
     font-weight: 700;
     margin-bottom: 12px;
+    letter-spacing: 0.04em;
   }
   .speaker-titles {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-soft);
     line-height: 1.9;
     letter-spacing: 0.03em;
   }
   .speaker-bio {
     font-size: 15px;
-    line-height: 2;
+    line-height: 1.95;
     color: var(--text);
   }
   .speaker-bio p {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
   .speaker-bio p:last-child { margin-bottom: 0; }
-  .speaker-track {
-    margin-top: 32px;
-    background: var(--bg-soft);
+  /* NEXT STAGE 内に置く実績ボックス */
+  .achievement-box {
+    max-width: 720px;
+    margin: 28px auto 0;
+    background: var(--white);
     border-left: 4px solid var(--accent);
-    padding: 24px 28px;
-    font-size: 14.5px;
+    padding: 22px 28px;
+    font-size: 15.5px;
     line-height: 1.95;
     color: var(--navy);
-  }
-  .speaker-book {
-    margin-top: 24px;
-    background: var(--bg-soft);
-    border-left: 4px solid var(--accent);
-    padding: 24px 28px;
-  }
-  .speaker-book-entry { margin-top: 14px; }
-  .speaker-book-entry:first-of-type { margin-top: 0; }
-  .speaker-book-label {
-    font-size: 12px;
-    letter-spacing: 0.15em;
-    color: var(--accent-dark);
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  .speaker-book-title {
-    font-family: 'Noto Serif JP', serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--navy);
-    line-height: 1.7;
-  }
-  .speaker-book-pub {
-    font-size: 13px;
-    color: var(--text-soft);
-    margin-top: 4px;
   }
 
   /* ===== Change (受講後の変化 Sec.10) ===== */
@@ -730,7 +703,7 @@
     padding: 24px 0 24px 48px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.9;
   }
   .change-list li:last-child { border-bottom: none; }
@@ -746,13 +719,13 @@
   .change-list li strong {
     display: block;
     font-family: 'Noto Serif JP', serif;
-    font-size: 17px;
+    font-size: 18px;
     color: var(--white);
     margin-bottom: 6px;
   }
   .change-list li span {
     color: rgba(255,255,255,0.78);
-    font-size: 15px;
+    font-size: 16px;
   }
 
   /* ===== Target (Sec.11) ===== */
@@ -777,7 +750,7 @@
   .target-list li {
     padding: 10px 0 10px 28px;
     position: relative;
-    font-size: 15px;
+    font-size: 16px;
   }
   .target-list li::before {
     content: '✓';
@@ -808,7 +781,7 @@
     padding: 20px 24px;
     text-align: left;
     border-bottom: 1px solid var(--line);
-    font-size: 15px;
+    font-size: 16px;
     vertical-align: top;
     line-height: 1.8;
   }
@@ -817,7 +790,7 @@
     font-weight: 700;
     width: 28%;
     background: var(--bg);
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.05em;
   }
   .details-table td {
@@ -839,7 +812,7 @@
   .details-note {
     max-width: 760px;
     margin: 36px auto 0;
-    font-size: 14.5px;
+    font-size: 15.5px;
     line-height: 1.95;
     color: var(--text);
     background: var(--white);
@@ -860,7 +833,7 @@
   }
   .faq-q {
     font-family: 'Noto Serif JP', serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
     color: var(--navy);
     margin-bottom: 10px;
@@ -876,7 +849,7 @@
     font-size: 17px;
   }
   .faq-a {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.95;
     color: var(--text);
     padding-left: 30px;
@@ -909,7 +882,7 @@
   .terms-summary li {
     padding: 12px 0 12px 28px;
     position: relative;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.8;
     border-bottom: 1px dashed var(--line);
   }
@@ -927,7 +900,7 @@
     border-top: 1px solid var(--line);
   }
   .terms-details h3 {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--navy);
     margin: 24px 0 12px;
     padding-left: 12px;
@@ -936,7 +909,7 @@
   }
   .terms-details h3:first-child { margin-top: 0; }
   .terms-details p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.95;
     color: var(--text);
     margin-bottom: 14px;
@@ -957,7 +930,7 @@
     font-weight: 700;
   }
   .final-cta p {
-    font-size: 16px;
+    font-size: 17px;
     color: rgba(255, 255, 255, 0.85);
     margin-bottom: 16px;
     max-width: 620px;
@@ -993,17 +966,6 @@
     margin-bottom: 8px;
     font-family: 'Noto Serif JP', serif;
   }
-  footer .badge {
-    display: inline-block;
-    border: 1px solid var(--accent-light);
-    color: var(--accent-light);
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    padding: 4px 12px;
-    margin-bottom: 12px;
-    border-radius: 2px;
-  }
-
   /* ===== Sticky CTA bar(常時表示・PC/モバイル共通) ===== */
   .sticky-cta-bar {
     display: flex;
@@ -1067,21 +1029,16 @@
   @media (max-width: 640px) {
     section { padding: 56px 0; }
     .hero { padding: 44px 0 56px; }
-    .hero-step {
-      font-size: 10.5px;
-      gap: 6px;
-      margin-bottom: 28px;
-    }
-    .hero-step .step { padding: 5px 9px; letter-spacing: 0.03em; }
-    .hero-step .arrow { font-size: 12px; }
     .hero-title { font-size: clamp(20px, 5.6vw, 26px); letter-spacing: 0.01em; line-height: 1.65; }
     .hero-subtitle { font-size: 13.5px; line-height: 1.9; margin-bottom: 32px; }
     .hero-eyebrow { font-size: 11px; margin-bottom: 22px; }
     .hero-info { flex-direction: column; align-items: flex-start; gap: 14px; padding: 18px 0; }
     .hero-info-right { margin-left: 0; text-align: left; }
     .hero-meta { grid-template-columns: 1fr; gap: 12px; }
-    .speaker-card { padding: 32px 24px; }
-    .speaker-book { padding: 22px 20px; }
+    .speaker-grid { grid-template-columns: 1fr; gap: 32px; max-width: 520px; }
+    .speaker-card { padding: 28px 24px 32px; }
+    .speaker-name { font-size: 22px; }
+    .achievement-box { padding: 18px 20px; font-size: 14.5px; }
     .compare-table { font-size: 13px; }
     .compare-table th, .compare-table td { padding: 12px 10px; }
     .compare-table tbody th { width: 30%; }
@@ -1154,14 +1111,6 @@
 <!-- ===== セクション1:ヒーロー ===== -->
 <section class="hero">
   <div class="container">
-    <div class="hero-step" aria-label="講座ステップ">
-      <span class="step">入門セミナー(90分)</span>
-      <span class="arrow">→</span>
-      <span class="step current">1Day体験講座</span>
-      <span class="arrow">→</span>
-      <span class="step">養成講座 第7期</span>
-    </div>
-
     <span class="hero-eyebrow">社労士限定 1Day体験講座｜会場+オンライン</span>
 
     <h1 class="hero-title">
@@ -1171,8 +1120,8 @@
     </h1>
 
     <span class="hero-subtitle">
-      離職・メンタル不調・職場不和を、「存在感」と「人間関係の不安感」から読み解く。<br>
-      実例をもとにしたケース教材とICMアンケート(体験版)のサンプルを使い、<br class="sp-br">組織状態の見立てから、3か月改善プランの骨子づくりまで体験します。
+      離職・メンタル不調・職場不和を、「存在感」と「不安感」から読み解く。<br>
+      実例をもとにしたケースを見立て、ICMアンケートの体験用サンプルデータを読み解き、<br class="sp-br">改善プランの骨子まで、ご自身の手で作っていただく一日です。
     </span>
 
     <div class="hero-info">
@@ -1201,7 +1150,7 @@
     <span class="hero-deadline">早割 27,500円(税込)は 7月15日(水)まで</span>
 
     <div class="hero-note">
-      2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、<br>1Day講座受講料は全額充当されます。
+      2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、1Day体験講座の受講料は養成講座の受講料に全額充当されます。
     </div>
   </div>
 </section>
@@ -1215,7 +1164,7 @@
       実際に「見立てられる」ことの間には、距離があります。
     </p>
     <div class="bridge-text">
-      <p>90分セミナーでは、顧問先で起きる離職・メンタル不調・職場不和を、「存在感」と「人間関係の不安感」から見立てるという視点をお伝えしました。</p>
+      <p>社労士のための組織状態見立て入門セミナーでは、顧問先で起きる離職・メンタル不調・職場不和を、「存在感」と「不安感」から見立てるという視点をお伝えしました。</p>
       <p>ただ、視点を知ることと、実際に顧問先のケースを前にして見立てられることは、別のことです。</p>
       <p>この1Day体験講座は、聞く講座ではありません。実例をもとにしたケースを見立て、ICMアンケート(体験版)のサンプルを読み解き、改善プランの骨子まで、ご自身の手で作っていただく一日です。</p>
     </div>
@@ -1280,17 +1229,17 @@
   </div>
 </section>
 
-<!-- ===== セクション5:90分セミナーとの違い ===== -->
+<!-- ===== セクション5:社労士のための組織状態見立て入門セミナーとの違い ===== -->
 <section>
   <div class="container">
     <span class="section-label">COMPARISON</span>
-    <h2 class="section-title">90分セミナーと、<br class="sp-br">何が違うのか</h2>
+    <h2 class="section-title">入門セミナーと、<br class="sp-br">何が違うのか</h2>
     <div class="compare-wrap">
       <table class="compare-table">
         <thead>
           <tr>
             <th></th>
-            <th>90分セミナー</th>
+            <th>入門セミナー</th>
             <th class="current">1Day体験講座</th>
           </tr>
         </thead>
@@ -1331,7 +1280,7 @@
   <div class="container">
     <p class="cta-band-deadline">
       早割 <em>27,500円(税込)</em> は <em>7月15日(水)</em> まで。<br>
-      2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、1Day講座受講料は全額充当されます。
+      <span class="cta-charge">2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、1Day体験講座の受講料は養成講座の受講料に全額充当されます。</span>
     </p>
     <p class="cta-band-sub">会場は30席限定(先着)/申込締切:7月27日(月)</p>
     <a href="https://forms.cloud.microsoft/r/iFsiqFixx3" target="_blank" rel="noopener" class="btn-cta">1Day体験講座に申し込む</a>
@@ -1395,32 +1344,41 @@
   <div class="container">
     <span class="section-label">SPEAKER</span>
     <h2 class="section-title">講師紹介</h2>
-    <div class="speaker-card">
-      <div class="speaker-header">
-        <div class="speaker-name">下田 直人</div>
-        <div class="speaker-titles">
-          一般社団法人 自立した人と組織を育成する協会 代表理事<br>
-          株式会社エスパシオ 代表取締役<br>
-          社会保険労務士事務所エスパシオ 代表
+    <div class="speaker-grid">
+      <div class="speaker-card">
+        <div class="speaker-photo">
+          <img src="images/speaker-harada.png" alt="原田 隆史">
+        </div>
+        <div class="speaker-header">
+          <div class="speaker-name">原田 隆史</div>
+          <div class="speaker-titles">
+            一般社団法人 自立した人と組織を育成する協会 理事<br>
+            株式会社原田教育研究所 代表取締役
+          </div>
+        </div>
+        <div class="speaker-bio">
+          <p>大阪市生まれ。奈良教育大学卒業後、大阪市内の公立中学校に20年間勤務。保健体育指導・生徒指導に注力し、課題を抱える教育現場を次々と立て直したことから「生活指導の神様」と呼ばれる。</p>
+          <p>独自の育成手法「原田メソッド」を確立し、勤務3校目の陸上競技部を7年間で13回の日本一へ導く。その後、教育現場で培った人材育成の手法を企業・学校・スポーツの分野へ展開。これまでに約600社・15万人以上のビジネスパーソンを指導し、経営者のコーチングやトップアスリートのメンタルトレーニングにも携わる。</p>
+          <p>現在も、講演・研修・執筆活動を通じて、自立型人材の育成と、成果を生み出す組織づくりに取り組んでいる。</p>
         </div>
       </div>
-      <div class="speaker-bio">
-        <p>2002年、28歳の時に社会保険労務士事務所を開業。2005年に『なぜ、就業規則を変えると会社は儲かるのか？』（大和出版）を出版し、世の中の就業規則のあり方を大きく変える。2021年には『新標準の就業規則 多様化に対応した《戦略的》社内ルールのつくり方』(日本実業出版社)を出版。戦略的な就業規則づくりを通じて1,000社超の経営課題に関わり、「社労士に頼られる社労士」として専門家への指導も行う。</p>
-        <p>また、2005年に原田メソッドを学び、以後、自ら実践するとともに、多くの経営者・士業の方に原田メソッドを伝えている。</p>
-        <p>社会保険労務士としては、労働法務・心理学・東洋哲学をベースとして、コーチング・ファシリテーションのテクニックを駆使しながら、「人の心を温める組織づくり」に活動領域を広げている。組織に「働きがい」と「安心感」をもたらすことをモットーに、時には人事・労務管理のアドバイザーとして、時には研修講師として、時にはコンサルタントとして関わり、多くの実績をあげている。</p>
-      </div>
-      <div class="speaker-track">
-        これまで第1期から第6期までの養成講座を通じて、62名の育成士が誕生(2026年6月時点)。受講後は、顧問先の離職防止、管理職育成、社員面談、職場改善の提案など、それぞれの現場で学びを活用されています。
-      </div>
-      <div class="speaker-book">
-        <div class="speaker-book-label">著書</div>
-        <div class="speaker-book-entry">
-          <div class="speaker-book-title">『新標準の就業規則 多様化に対応した《戦略的》社内ルールのつくり方』</div>
-          <div class="speaker-book-pub">日本実業出版社(2021年)</div>
+      <div class="speaker-card">
+        <div class="speaker-photo">
+          <img src="images/speaker-shimoda.png" alt="下田 直人">
         </div>
-        <div class="speaker-book-entry">
-          <div class="speaker-book-title">『なぜ、就業規則を変えると会社は儲かるのか?』</div>
-          <div class="speaker-book-pub">大和出版(2005年)ほか著書多数</div>
+        <div class="speaker-header">
+          <div class="speaker-name">下田 直人</div>
+          <div class="speaker-titles">
+            一般社団法人 自立した人と組織を育成する協会 代表理事<br>
+            株式会社エスパシオ 代表取締役<br>
+            社会保険労務士事務所エスパシオ 代表
+          </div>
+        </div>
+        <div class="speaker-bio">
+          <p>2002年、28歳の時に社会保険労務士事務所を開業。2005年に『なぜ、就業規則を変えると会社は儲かるのか?』(大和出版)を出版し、世の中の就業規則のあり方に新たな視点を提示する。2021年には『新標準の就業規則 多様化に対応した《戦略的》社内ルールのつくり方』(日本実業出版社)を出版。</p>
+          <p>戦略的な就業規則づくりを通じて、これまで1,000社を超える企業の経営課題に関わる。社会保険労務士として企業支援を行う一方で、「社労士に頼られる社労士」として、専門家への指導・育成にも力を注いでいる。</p>
+          <p>また、2005年に原田メソッドを学び、以後、自ら実践するとともに、多くの経営者・士業の方へ原田メソッドを伝えている。</p>
+          <p>現在は、労働法務・心理学・東洋哲学をベースに、コーチングやファシリテーションの手法も取り入れながら、「人の心を温める組織づくり」に活動領域を広げている。組織に「働きがい」と「安心感」をもたらすことを大切にしながら、人事・労務管理のアドバイザー、研修講師、コンサルタントとして、多くの企業の組織づくりを支援している。</p>
         </div>
       </div>
     </div>
@@ -1462,7 +1420,7 @@
     <div class="deep-grid">
       <div class="deep-card">
         <div class="heading">見立てを深める</div>
-        <div class="body">複数のケースを通じて、離職・メンタル不調・職場不和の背景にある組織状態を、存在感と人間関係の不安感から見立てる力を深めます。</div>
+        <div class="body">複数のケースを通じて、離職・メンタル不調・職場不和の背景にある組織状態を、存在感と不安感から見立てる力を深めます。</div>
       </div>
       <div class="deep-card">
         <div class="heading">支援を組み立てる</div>
@@ -1473,9 +1431,12 @@
         <div class="body">見立てた内容を、経営者にどう伝え、どのように組織改善支援として提案するか。顧問先に届く言葉と流れを身につけます。</div>
       </div>
     </div>
+    <div class="achievement-box">
+      これまで第1期から第6期までの養成講座を通じて、62名の育成士が誕生(2026年6月時点)。<br>受講後は、顧問先の離職防止、管理職育成、社員面談、職場改善の提案など、それぞれの現場で学びを活用されています。
+    </div>
     <p class="deep-note">※ICMアンケート・ECMアンケート等を顧問先支援として実施・提供いただくには、養成講座の修了および育成士登録が必要です。1Day体験講座では、体験版のサンプルデータを用いて見立ての流れを体験いただきます。</p>
     <div class="credit-box">
-      1Day体験講座の開催日から5日以内(2026年8月5日(水)まで)に養成講座 第7期にお申し込みいただいた場合、1Day受講料は養成講座の受講料から全額差し引かれます。
+      2026年8月5日(水)までに養成講座 第7期へお申し込みいただいた場合、1Day体験講座の受講料は養成講座の受講料から全額差し引かれます。
     </div>
   </div>
 </section>
@@ -1491,11 +1452,11 @@
         <li>顧問先の職場課題を、制度や個人の問題だけでなく、組織状態として見立てたい方</li>
         <li>制度対応だけでなく、組織の中身に踏み込んだ支援をしたい方</li>
         <li>ICMアンケートを使った組織状態の見立てを体験してみたい方</li>
-        <li>90分セミナーに参加して、「実際にやってみたい」と感じた方</li>
+        <li>社労士のための組織状態見立て入門セミナーに参加して、「実際にやってみたい」と感じた方</li>
         <li>養成講座 第7期に関心があり、まずは内容を体験してみたい方</li>
       </ul>
     </div>
-    <p class="target-note">※対象資格の条件は90分セミナーと同条件です(開催概要をご参照ください)。</p>
+    <p class="target-note">※対象資格の条件は社労士のための組織状態見立て入門セミナーと同条件です(開催概要をご参照ください)。</p>
   </div>
 </section>
 
@@ -1507,7 +1468,7 @@
     <table class="details-table">
       <tr>
         <th>講座名</th>
-        <td>顧問先の職場課題を見立てる1Day体験講座<br><small style="color: var(--text-soft);">〜離職・メンタル不調・職場不和を、存在感と人間関係の不安感から読み解く〜</small></td>
+        <td>顧問先の職場課題を見立てる1Day体験講座<br><small style="color: var(--text-soft);">〜離職・メンタル不調・職場不和を、存在感と不安感から読み解く〜</small></td>
       </tr>
       <tr>
         <th>開催日時</th>
@@ -1540,7 +1501,7 @@
       </tr>
       <tr>
         <th>受講料の充当</th>
-        <td>開催日から5日以内(2026年8月5日(水)まで)に養成講座 第7期にお申し込みの場合、1Day受講料は養成講座の受講料から全額差し引かれます。</td>
+        <td>2026年8月5日(水)までに養成講座 第7期へお申し込みいただいた場合、1Day体験講座の受講料は養成講座の受講料から全額差し引かれます。</td>
       </tr>
       <tr>
         <th>対象</th>
@@ -1549,7 +1510,7 @@
           ・社会保険労務士法人社員の方<br>
           ・社会保険労務士事務所の職員の方<br>
           ・1年以内に社会保険労務士事務所開業予定の方<br>
-          <small style="color: var(--text-soft);">※社会保険労務士有資格者の方に限られます(90分セミナーと同条件)</small>
+          <small style="color: var(--text-soft);">※社会保険労務士有資格者の方に限られます(社労士のための組織状態見立て入門セミナーと同条件)</small>
         </td>
       </tr>
       <tr>
@@ -1566,7 +1527,7 @@
       </tr>
     </table>
     <div class="details-note">
-      この1Day体験講座はワーク中心の構成のため、その場でご自身の手を動かしていただくことで、得られるものが最も大きくなります。会場参加の方は、講師や他の参加者とのやり取りを、より近い距離で体験いただけます。講座終了後には、希望者による懇親会も予定しています。オンライン参加の方も、同じ資料・同じワークでご参加いただけますので、遠方の方も安心してお申し込みください。後日配信は、当日のご参加が難しくなった場合の補完としてご活用いただけます。
+      この1Day体験講座はワーク中心の構成のため、その場でご自身の手を動かしていただくことで、得られるものが最も大きくなります。会場参加の方は、講師や他の参加者とのやり取りを、より近い距離で体験いただけます。講座終了後には、希望者による懇親会も予定しています。オンライン参加の方も、同じ資料・同じワークでご参加いただけますので、遠方の方も安心してお申し込みください。なお、グループでのワークの時間があるため、オンラインでご参加の方は、カメラをオンにしてご参加ください。後日配信は、当日のご参加が難しくなった場合の補完としてご活用いただけます。
     </div>
   </div>
 </section>
@@ -1578,8 +1539,8 @@
     <h2 class="section-title">よくあるご質問</h2>
     <div class="faq-list">
       <div class="faq-item">
-        <div class="faq-q">90分セミナーに参加していなくても、ついていけますか？</div>
-        <div class="faq-a">はい。当日は基本フレームの解説から始めますので、初めての方もご参加いただけます。90分セミナーのアーカイブをご覧いただくと、より深く体験いただけます。</div>
+        <div class="faq-q">社労士のための組織状態見立て入門セミナーに参加していなくても、ついていけますか？</div>
+        <div class="faq-a">はい。当日は基本フレームの解説から始めますので、初めての方もご参加いただけます。社労士のための組織状態見立て入門セミナーのアーカイブをご覧いただくと、より深く体験いただけます。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">会場参加とオンライン参加で、内容や料金に違いはありますか？</div>
@@ -1594,12 +1555,12 @@
         <div class="faq-a">ICMアンケート・ECMアンケート等のツールを顧問先支援に正式にご活用いただけるのは、養成講座を修了し、育成士として登録された方に限られます。1Day体験講座では、体験版のサンプルデータを使った見立てを体験していただきます。</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">養成講座 第7期を検討中です。先に1Dayだけ参加してもいいですか?</div>
-        <div class="faq-a">はい、その順番をおすすめしています。開催日から5日以内(2026年8月5日(水)まで)に養成講座 第7期にお申し込みいただいた場合、1Day受講料は養成講座の受講料から全額差し引かれますので、まず体験いただいてからご判断ください。</div>
+        <div class="faq-q">養成講座 第7期を検討中です。先に1Day体験講座のみ参加してもよいですか？</div>
+        <div class="faq-a">はい、まず1Day体験講座で内容を体験いただいてから、養成講座 第7期へのお申し込みをご検討いただけます。<br>2026年8月5日(水)までに養成講座 第7期へお申し込みいただいた場合、1Day体験講座の受講料は養成講座の受講料から全額差し引かれます。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">支払い方法・請求書・領収書について教えてください。</div>
-        <div class="faq-a">お支払い方法は、クレジットカード払いまたは銀行振込からお選びいただけます。お申し込み時にご希望のお支払い方法をお伺いし、お申し込み後に請求書をメールにてお送りします。<br><br>クレジットカードでお支払いの場合は、決済完了時にシステムより領収書(レシート)がメールで送信されます。銀行振込の場合は、原則として領収書の個別発行は行っておりません。領収書が必要な場合は、事務局までご連絡ください。個別に発行いたします。</div>
+        <div class="faq-a">お支払い方法は、クレジットカード払いまたは銀行振込からお選びいただけます。お申し込み時にご希望のお支払い方法をお伺いし、お申し込み後に請求書をメールにてお送りします。<br><br>クレジットカードでお支払いの場合は、決済完了時にシステムより領収書メールが送信されます。銀行振込の場合は、原則として領収書の個別発行は行っておりません。領収書が必要な場合は、事務局までご連絡ください。個別に発行いたします。</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">早割はいつまでに何をすれば適用されますか？</div>
@@ -1644,6 +1605,7 @@
           <h3>オンライン受講・配信に関するご案内</h3>
           <p>この1Day体験講座は、会場参加に加え、Zoomを利用したオンライン配信を予定しております。</p>
           <p>オンラインでご参加の場合は、安定したインターネット環境、Zoomに接続できる端末、必要に応じた音声環境等を、事前にご準備ください。</p>
+          <p>また、本講座はグループでのワークを含むため、オンラインでご参加の方は、カメラをオンにしてご参加いただきますようお願いいたします。</p>
           <p>受講者様側の通信環境、端末、Zoomアプリの設定等に起因して視聴できなかった場合、受講料の返金はいたしかねます。なお、お申し込みいただいた方には後日配信をご案内いたしますので、当日の接続が難しかった場合は、そちらをご活用ください。</p>
           <p>また、Zoom等の外部サービス、通信回線、電力供給、その他やむを得ない事情により、配信の中断・遅延・一部内容の変更が生じる場合がございます。その場合は、後日配信、補足動画、資料提供、代替日程のご案内等、状況に応じて可能な範囲で対応いたします。</p>
           <p>主催者都合により講座の実施が困難となった場合は、代替日程のご案内または受講料の返金等にて対応いたします。</p>
@@ -1669,7 +1631,7 @@
     </p>
     <p class="final-cta-info">
       早割 27,500円(税込)は7月15日(水)まで。<br>
-      2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、1Day講座受講料は全額充当されます。
+      <span class="cta-charge">2026年8月5日(水)までに養成講座 第7期へお申し込みの場合、1Day体験講座の受講料は養成講座の受講料に全額充当されます。</span>
     </p>
     <a href="https://forms.cloud.microsoft/r/iFsiqFixx3" target="_blank" rel="noopener" class="btn-cta">1Day体験講座に申し込む</a>
     <span class="cta-note">お申し込みいただいた方全員に、後日配信(視聴期間1か月)をお送りします。</span>
@@ -1679,7 +1641,6 @@
 <!-- ===== セクション16:フッター ===== -->
 <footer>
   <div class="container">
-    <div class="badge">1Day体験講座</div>
     <div class="org">一般社団法人 自立した人と組織を育成する協会</div>
     <div>&copy; 2026 自立した人と組織を育成する協会. All Rights Reserved.</div>
   </div>
