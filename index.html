@@ -1004,6 +1004,16 @@
     margin-bottom: 8px;
     font-family: 'Noto Serif JP', serif;
   }
+  footer .org a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  footer .org a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
   /* ===== Sticky CTA bar(常時表示・PC/モバイル共通) ===== */
   .sticky-cta-bar {
     display: flex;
@@ -1687,7 +1697,7 @@
 <!-- ===== セクション16:フッター ===== -->
 <footer>
   <div class="container">
-    <div class="org">一般社団法人 自立した人と組織を育成する協会</div>
+    <div class="org"><a href="https://jihits.org/" target="_blank" rel="noopener">一般社団法人 自立した人と組織を育成する協会</a></div>
     <div>&copy; 2026 自立した人と組織を育成する協会. All Rights Reserved.</div>
   </div>
 </footer>
